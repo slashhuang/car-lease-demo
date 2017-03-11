@@ -10,6 +10,8 @@ WORKDIR /usr/src/app
 # Update npm
 RUN npm install -g npm
 
+RUN npm install -g nodemon
+
 # Install app dependencies
 COPY package.json /usr/src/app/
 RUN npm install --verbose --registry=https://registry.npm.taobao.org

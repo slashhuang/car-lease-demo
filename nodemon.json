@@ -1,0 +1,7 @@
+{
+  "events": {
+
+    "restart": "sh ./restart.sh"
+  
+  }
+}
